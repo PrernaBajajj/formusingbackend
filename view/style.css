@@ -1,0 +1,557 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.nav{
+    background-color: white;
+    z-index: 9;
+   
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+
+}
+.nav_top{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+}
+
+.logo{
+    width: 60%;
+    float: left;
+}
+.logo img{
+    padding: 10px;
+    margin-left: 30px;
+}
+.logo a + h2{
+    font-family: cosmic,sans-serif;
+    display: inline-block;
+    position: relative;
+  
+}
+.nav_side{
+    float: right;
+    width: 40%;
+    margin-top: 40px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: cosmic,sans-serif;
+    font-size:15px;
+    
+}
+
+.nav_side a:hover{
+    color: rgb(192, 229, 244);
+  
+    transition:all 1s ease ;    
+}
+
+
+.main{
+    background: url(assests/finalphoto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    background-color: rgba(0,0,0,.15);
+}
+
+.main .main-content{
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+.main .main-content h2{
+    font-family:cosmic,sans-serif; 
+    font-weight: bolder;
+    text-align: center;
+    color:white ;
+    font-size: 50px;
+    line-height: 20px;
+}
+.main .main-content h2 span{
+    font-size: 15px;
+    opacity: 0.8;
+    font-weight:bolder ;
+    line-height: 15px;
+    color:#000000d1;
+}
+.main .main-content .btn{
+    margin-top: 50px;   
+    text-align: center;
+    display: block;
+}
+.main .main-content .btn a{
+    text-decoration: none;
+    margin:50px;
+    padding:10px 20px;
+    background-color: #4A148C;
+    color:white;
+    font-family: cosmic,sans-serif;
+    border:2px solid white;
+    border-radius: 10px;
+
+}
+.main .main-content .btn a:hover{
+    background-color:#000000d1 ;
+    border:none;
+    border-bottom:4px solid white;
+    transition: 0.5s;
+}
+/* Products */
+.product{
+    padding-bottom:50px ;
+}
+.product h2{
+    font-size:35px;
+    text-align: center;
+    padding:20px;
+    font-family:cosmic,sans-serif
+}
+
+.product .product_container{
+    display: flex;
+    margin-left:5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+
+}
+.product .product_container .item{
+    width: 31%;
+    margin:10px;
+    height:auto;
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+
+.product .product_container .item .item_content{
+    text-align: center;
+}
+
+.product .product_container .item .item_content h3{
+    padding: 10px;
+    font-size:25px;
+    font-family: cosmic,sans-serif;
+}
+.product .product_container .item .item_content p{
+    padding: 10px;
+    font-size:15px;
+    font-family: cosmic,sans-serif;
+}
+.product .product_container .item .item_content a{
+    text-decoration: none;
+    width: 28%;
+    padding:10px 20px;
+    background-color: #4A148C;
+    color:white;
+    font-family: cosmic,sans-serif;
+    border:2px solid white;
+    border-radius: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:5px;
+    
+
+}
+.product .product_container .item .item_content a:hover{
+    background-color:#000000d1 ;
+    border:none;
+    border-bottom:4px solid white;
+    transition: 0.5s;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top:50px;
+
+}
+.product .product_btn a{
+    text-decoration: none;
+    padding:10px 20px;
+    background-color: #4A148C;
+    color:white;
+    font-family: cosmic,sans-serif;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.product .product_btn a:hover{
+    background-color:#000000d1 ;
+    border:none;
+    border-bottom:4px solid white;
+    transition: 0.5s;
+}
+/* keypoints */
+.keypoint{
+    padding:50px;
+}
+
+.keypoint h2{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+    font-family:cosmic,sans-serif
+}
+.keypoint .key_container{
+    display: flex;
+}
+.keypoint .key_container .key_content{
+    width:40%;
+    padding:20px;
+    
+
+}
+.keypoint .key_container .key_content li{
+     margin:10px;
+     padding: 10px;
+     border-left:2px solid orange;
+     font-family: cosmic,sans-serif;
+     text-align: left;
+     box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+     list-style: none;
+}
+.keypoint .key_container .key_img{
+    width: 40%;
+    margin-left:100px;
+    
+}
+.keypoint .key_container .key_img img{
+    width: 100%;
+
+}
+/* tetsimonials */
+
+.testi{
+    padding: 50px;
+}
+
+.testi h2{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+    font-family:cosmic,sans-serif
+}
+
+.testi .testi_container{
+    margin-right:10%;
+    margin-left:10%;
+    text-align: center;
+}
+
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+
+.testi .testi_container .item{
+    width: 100%;
+    padding: 20px;
+    box-shadow: none;
+    
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.testi .testi_container .item .item_content{
+    text-align: center;
+}
+
+.testi .testi_container .item .item_content h3{
+    padding: 10px;
+    font-size:25px;
+    font-family: cosmic,sans-serif;
+}
+.testi .testi_container .item .item_content p{
+    padding: 10px;
+    font-size:15px;
+    font-family: cosmic,sans-serif;
+}
+
+/* about team */
+.team{
+    padding: 50px;
+}
+.team h2{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+    font-family:cosmic,sans-serif
+}
+.team .team_container{
+    display: flex;
+}
+.team .team_container .team_video{
+    width: 50%;
+    padding: 20px;
+}
+.team .team_container .team_video iframe{
+    width: 100%;
+    outline: none;
+    border:10px solid  #A67CFE;
+}
+.team .team_container .team_content{
+    width: 40%;
+    padding: 20px;
+    margin-left:50px;
+}
+.team .team_container .team_content p{
+    padding: 10px;
+    font-size:15px;
+    font-family: cosmic,sans-serif;
+}
+.feed{
+    padding:50px;
+}
+.feed h2{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+    font-family:cosmic,sans-serif;
+}
+.feed .feed_form{
+    text-align: center;
+    
+}
+.feed .feed_form form{
+    padding: 20px;
+    
+}
+.feed .feed_form form input,.feed .feed_form form textarea{
+    width:30%;
+    margin:10px;
+    padding: 10px;
+    outline:none;
+    margin-left: auto;
+    margin-right:auto
+}
+.feed_form form button{
+    text-decoration: none;
+    padding:10px 20px;
+    background-color: #4A148C;
+    color:white;
+    font-family: cosmic,sans-serif;
+    border:2px solid white;
+    border-radius: 10px;
+    width: 30%;
+}
+.feed_form form button:hover{
+    background-color:#000000d1 ;
+  
+    
+    transition: 0.5s;
+}
+
+
+/* About us page */
+
+.about_us{
+    padding:100px;
+}
+
+.about_us h2{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+    font-family:cosmic,sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.about_us p{
+    padding: 10px;
+    font-size:15px;
+    text-align: center;
+    font-family: cosmic,sans-serif;
+    line-height: 20px;
+}
+/* Contact us page */
+.contact_container{
+    padding: 100px;
+}
+.contact_container h2{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+    font-family:cosmic,sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.contact_container .g_map{
+    border:4px solid rgb(192, 229, 244);
+    
+}
+.contact_container .g_map iframe{
+    width: 100%;
+}
+.contact_container .contact_content{
+    padding: 20px;
+}
+.contact_container .contact_content p{
+    padding: 10px;
+    font-size:15px;
+    font-family: cosmic,sans-serif;
+    line-height: 20px;
+}
+#blogs{
+    padding: 100px;
+    margin-top:10px;
+}
+.blogs-container{
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#blogs .blog_heading{
+    font-size:35px;
+    text-align: center;
+    padding:10px;
+    font-family:cosmic,sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.card{
+    width:40%;
+}
+.card img{
+    width: 100%;
+    height:15rem ;
+    object-fit: cover;
+    
+}
+.card .card-body .card_text{
+    padding: 10px;
+    font-size:15px;
+    text-align: center;
+    font-family: cosmic,sans-serif;
+    line-height: 20px;
+}
+
+/* footer */
+footer{
+    background-color:rgb(192, 229, 244);
+    color: #0A0911;
+    padding: 50px;
+}
+.footer_logo a + h2{
+    font-family: cosmic,sans-serif;
+    display: inline-block;
+    position: relative;
+  
+}
+footer .pages{
+    text-align: center;
+
+}
+footer .pages h3{
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin:10px;
+    font-family: cosmic,sans-serif;
+    color: #0A0911;
+}
+footer .pages a:hover{
+    color: white;
+}
+
+footer .doc{
+    text-align: center;
+
+}
+footer .doc h3{
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin:10px;
+    font-family: cosmic,sans-serif;
+    color: #0A0911;
+}
+footer .doc a:hover{
+    color: white;
+}
+footer .social{
+    text-align: center;
+
+}
+footer .social h3{
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+footer .contact{
+    text-align: center;
+
+}
+footer .contact h3{
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 5px;
+}
+footer .contact a{
+    color: #0A0911;
+    font-size: 30px;
+    margin: 10px;
+}
+footer .contact a:hover{
+    color: white;
+}
+
+footer .social a{
+
+    color: #0A0911;
+    font-size: 30px;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: white;
+}
+
+  .blog-style{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .shadow{
+    box-shadow: 5px 10px 8px #888888;
+   
+  }
+  .blog-p-div{
+    padding-left: 15px;
+    font-size: 1.1rem;
+  }

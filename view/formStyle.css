@@ -1,0 +1,33 @@
+body{
+    background-image:url("assests/formimage");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.form{
+    background-color: white;
+    margin: 3% auto;
+    max-width: 700px;
+    padding: 3%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 10px 15px 7px rgba(0, 0, 0, 0.34);
+    border: 2px solid black;
+    margin-top: 350px;
+    margin-right: 250px;
+}
+
+#signup{
+    display: block;
+}
+
+#login{
+    display: none;
+}
+@media screen and (max-width:1100px){
+    .form{
+        align-items: center;
+    }
+}
