@@ -9,7 +9,7 @@ body{
 .form{
     background-color: white;
     margin: 3% auto;
-    max-width: 700px;
+    max-width: 500px;
     padding: 3%;
     border-radius: 5px;
     text-align: center;
@@ -17,8 +17,11 @@ body{
     border: 2px solid black;
     margin-top: 350px;
     margin-right: 250px;
+    position: fixed;
 }
-
+h1{
+    color: black;
+}
 #signup{
     display: block;
 }
